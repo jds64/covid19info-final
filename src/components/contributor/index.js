@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const Thumb = styled.img`
   display: block;
-  vertical-align: middle;
   border-radius: 100%;
 `;
 

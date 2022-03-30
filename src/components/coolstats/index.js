@@ -33,6 +33,8 @@ const StatLabel = styled.span`
 `;
 
 const StatIcon = styled.span`
+  position: relative;
+  top: 8px;
   fill: #09f;
   stroke: #09f;
 `;
@@ -40,7 +42,7 @@ const StatIcon = styled.span`
 const StatTitle = styled.h2`
   font-size: 96px;
   font-weight: 900;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.033em;
   margin: 0;
   margin-left: 32px;
 
@@ -62,7 +64,7 @@ export default function Stat({ statistic, label, icon, width, height }) {
     <StatWrapper>
       <StatInner>
         <StatIcon>
-          <Image src={icon} width={width} height={height} />
+          <Image src={icon ? icon: null} width={width} height={height} />
         </StatIcon>
         <StatTitle>{statistic}</StatTitle>
       </StatInner>

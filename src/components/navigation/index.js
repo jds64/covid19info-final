@@ -29,6 +29,10 @@ const NavTitle = styled.a`
   font-weight: bold;
   color: inherit;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 const NavDesc = styled.span`
