@@ -12,7 +12,7 @@ COVID19 restrictions are ending across the UK and as such the necessity of sites
 
 ## Contributors
 
-We thank contributors, we have moved the project to a separate repository that will be archived.
+Many thanks to contributors, we have moved the project to a separate repository that will be archived.
 
 * Joshua Stubbs - Project Founder & Website Creator
 * Tina Yang - Data, Contact & Public Relations
