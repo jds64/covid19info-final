@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -27,6 +28,10 @@ const GlobalStyle = createGlobalStyle`
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <link rel="icon" href="/img/svg/covid19.svg" />
+        <title>COVID19 Information &amp; Help</title>
+      </Head>
       <GlobalStyle />
       <Component {...pageProps} />
     </>
