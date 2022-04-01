@@ -28,6 +28,8 @@ const StatInner = styled.div`
 `;
 
 const StatLabel = styled.span`
+  display: block;
+  margin-top: 16px;
   font-size: 24px;
   font-weight: 300;
 `;
